@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/App.css';
-import image from '../src/image.jpeg';
+import image from './image.jpeg';
 const App = () => {
   const [height, setHeight] = useState(320);
   const [width, setWidth] = useState(320);
